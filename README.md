@@ -21,8 +21,15 @@ Or install it yourself as:
     $ gem install message_judgment
 
 ## Usage
-
-TODO: Write usage instructions here
+```
+user_message="Hello,I want your sex!"
+crazy_word=["shit","sex","fuck"]
+message_judgment?(user_message,crazy_word)
+=>crazy_word=["shit","fuck"]
+```
+```
+=>
+```
 
 ## Development
 
