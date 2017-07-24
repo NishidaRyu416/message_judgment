@@ -10,10 +10,9 @@ Gem::Specification.new do |spec|
   spec.email         = ["nishidaryu416@gmail.com"]
 
   spec.summary       = %q{You should use this when you judge some texts.}
-  spec.description   = %q{For example,you wanna check your application's user's text whether crazy word or not,if user's text contains such a word,this gem will delete that.}
+  spec.description   = %q{For example,first you get your application's user's topic,then you wanna check their topic whether used or not,if used this gem will delete. }
   spec.homepage      = "https://ryu-nishida.blogspot.jp/"
   spec.license       = "MIT"
-
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
     f.match(%r{^(test|spec|features)/})
