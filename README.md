@@ -27,9 +27,6 @@ crazy_word=["shit","sex","fuck"]
 message_judgment?(user_message,crazy_word)
 =>crazy_word=["shit","fuck"]
 ```
-```
-=>
-```
 
 ## Development
 
