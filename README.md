@@ -21,11 +21,14 @@ Or install it yourself as:
     $ gem install message_judgment
 
 ## Usage
-```
+```ruby
 user_message="Hello,I want your sex!"
 crazy_word=["shit","sex","fuck"]
 message_judgment?(user_message,crazy_word)
-=>crazy_word=["shit","fuck"]
+```
+
+```ruby
+ crazy_word=["shit","fuck"] #response
 ```
 
 ## Development
