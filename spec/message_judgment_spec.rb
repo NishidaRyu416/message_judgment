@@ -5,7 +5,7 @@ RSpec.describe MessageJudgment do
     expect(MessageJudgment::VERSION).not_to be nil
   end
 
-  it "does something useful" do
-    expect(false).to eq(true)
+  it "returns checked message!" do
+    expect(MessageJudgment.message_judgment?("sex",["sex","fack"])).to eq("")
   end
 end
