@@ -1,3 +1,3 @@
 module MessageJudgment
-  VERSION = "0.1.31"
+  VERSION = "1.0"
 end
