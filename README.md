@@ -22,13 +22,15 @@ Or install it yourself as:
 
 ## Usage
 ```ruby
-user_message="Hello,I want your sex!"
-crazy_word=["shit","sex","fuck"]
-puts message_judgment?(user_message,crazy_word)
-```
+irb(main):001:0> require "message_judgment"
+=> true
+irb(main):002:0> message="Hello,I want your sex!"
+=> "Hello,I want your sex!"
+irb(main):003:0> targets=["sex","fack"]
+=> ["sex", "fack"]
+irb(main):004:0> MessageJudgment.message_judgment?(message,targets)
+=> "Hello,I want your !"
 
-```ruby
-#response => Hello,I want your
 ```
 
 ## Development
