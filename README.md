@@ -1,9 +1,7 @@
 # MessageJudgment
-
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/message_judgment`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
-
+Hello,welcome to this page!!
+This gem is very useful when you check your service's user's message
+whether contains terrible word,or not.
 ## Installation
 
 Add this line to your application's Gemfile:
