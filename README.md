@@ -24,11 +24,11 @@ Or install it yourself as:
 ```ruby
 user_message="Hello,I want your sex!"
 crazy_word=["shit","sex","fuck"]
-message_judgment?(user_message,crazy_word)
+puts message_judgment?(user_message,crazy_word)
 ```
 
 ```ruby
- crazy_word=["shit","fuck"] #response
+#response => Hello,I want your
 ```
 
 ## Development
