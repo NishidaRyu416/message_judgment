@@ -19,6 +19,25 @@ Or install it yourself as:
     $ gem install message_judgment
 
 ## Usage
+
+`MessageJudgment.message_judgment?(message,targets,false)`
+- First argument is message which you wanna check.
+- Second argument is some crazy word which you wanna forbid.
+- Third argument is option which you wanna select if you wanna make some forbidden words into "*",you don't need to specify.
+  but if you wanna make it just some blank,you gotta give false to the argument. 
+
+```ruby
+irb(main):001:0> require "message_judgment"
+=> true
+irb(main):002:0> message="Hello,I want your sex!"
+=> "Hello,I want your sex!"
+irb(main):003:0> targets=["sex","fack"]
+=> ["sex", "fack"]
+irb(main):004:0> MessageJudgment.message_judgment?(message,targets,false)
+=> "Hello,I want your !"
+
+```
+
 ```ruby
 irb(main):001:0> require "message_judgment"
 => true
@@ -27,9 +46,9 @@ irb(main):002:0> message="Hello,I want your sex!"
 irb(main):003:0> targets=["sex","fack"]
 => ["sex", "fack"]
 irb(main):004:0> MessageJudgment.message_judgment?(message,targets)
-=> "Hello,I want your !"
-
+=> "Hello,I want your ***!"
 ```
+
 
 ## Development
 
